@@ -1,6 +1,8 @@
-#Which? Java Training
-This is a 4 day train course in Java
-###Day 1
+# Which? Java Training    
+
+This is a 4 day train course in Java    
+
+### Day 1
 - src/ console.main
 1. System.out.println
 2. int, double, Math.pow
