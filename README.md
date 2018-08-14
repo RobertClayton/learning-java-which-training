@@ -1,6 +1,6 @@
 # Which? Java Training    
 
-This is a 4 day train course in Java    
+This is a 4 day training course in Java    
 
 ### Day 1
 - src/ console.main
