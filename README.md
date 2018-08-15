@@ -1,6 +1,6 @@
 # Which? Java Training    
 
-This is a 4 day training course in Java. This idea of which is is give an introduction to the language and important libraries needed for java development.
+This is a 4 day training course in Java, that gives an introduction to the language and important libraries needed for java development.
 
 #### Day 1
 1. The Environment
