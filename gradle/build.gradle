@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'console.Class1'
+
+group 'com.which'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'mysql:mysql-connector-java:8.0.12'
+    testCompile 'com.google.code.tempus-fugit:tempus-fugit:1.1'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
