@@ -2,6 +2,15 @@ package twitter;
 
 public class Message {
 
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof Message) {
+            return ((Message) obj).text.equals(text);
+        } else {
+            return false;
+        }
+    }
+
     public Message() {
     }
 

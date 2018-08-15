@@ -14,6 +14,10 @@ public class Car {
     }
 
     public void setSpeed(int speed) {
+        if (speed > 150) {
+            throw new IllegalArgumentException("Speed is to high");
+        }
+
         setGear(speed);
         this.speed = speed;
     }
