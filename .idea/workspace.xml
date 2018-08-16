@@ -3,11 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="233f395a-ed8b-4d55-b6a9-6a173f0a019d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-training/transport/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-training/transport/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transport/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/transport/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twitter/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitter/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/src/main/java/console/DatesAndTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/main/java/console/DatesAndTimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/src/main/java/console/FunctionalInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/main/java/console/FunctionalInterfaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/src/main/java/console/Maths.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/main/java/console/Maths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/src/main/java/entity/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/main/java/entity/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/src/main/java/entity/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/main/java/entity/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/src/main/java/session/InMemoryFilmDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/main/java/session/InMemoryFilmDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/src/test/java/console/MathsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/test/java/console/MathsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/src/test/java/entity/FilmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/test/java/entity/FilmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testtt/mike.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../testtt/test.rb" beforeDir="false" />
     </list>
@@ -24,9 +30,9 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -64,22 +70,6 @@
         </counts>
       </usages-collector>
     </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/examples/ArrayListExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,65 +132,9 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="java-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-training" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-training" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-training" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-training" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-training" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-training" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="ProductRepository.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="java-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-training" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="polymorphism" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-training" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="transport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-training" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
             <path>
               <item name="java-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
@@ -209,6 +143,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,6 +256,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.StaticMethods" />
@@ -354,7 +290,7 @@
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.21173105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.21459228" />
       <window_info id="Structure" order="1" sideWeight="0.50206614" side_tool="true" weight="0.17596567" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -406,9 +342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="1335" selection-start-line="1335" selection-end-line="1335" />
-          <folding>
-            <element signature="e#52271#52272#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -425,96 +358,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java-training/console/Class1.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-802">
-          <folding>
-            <element signature="e#0#742#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-802" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java-training/console/Maths.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java-training/console/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#996#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java-training/console/StaticMethods.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java-training/transport/Car.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java-training/transport/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java-training/twitter/Category.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java-training/twitter/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java-training/twitter/Message.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java-training/twitter/Tweet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java-training/twitter/SMS.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/java-training.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -579,12 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="43" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,10 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -617,9 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1596">
           <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,16 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,9 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
           <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,9 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="30" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,14 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,12 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,12 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,10 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,10 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

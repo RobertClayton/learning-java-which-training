@@ -10,6 +10,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import entity.Film;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -20,6 +21,7 @@ public class FilmTest {
      * Add a constructor, fields, get and set methods, so that the assertions
      * pass
      */
+//    @Ignore
     @Test
     public void constructorShouldInitialiseFields() {
         // arrange and act
@@ -43,11 +45,13 @@ public class FilmTest {
      * throw an exception, either from the constructor or the setStock method if
      * a negative value is passed in
      */
+//    @Ignore
     @Test(expected = IllegalArgumentException.class)
     public void constructorShouldThrowExceptionIfStockNegative() {
         new Film("The Pink Panther", -1, LocalDate.of(1964, 1, 20), Genre.COMEDY);
     }
 
+    //@Ignore
     @Test
     public void filmShouldWorkWithList() {
         // arrange
@@ -64,6 +68,7 @@ public class FilmTest {
     /**
      * Override the equals method in the Film class
      */
+//    @Ignore
     @Test
     public void filmsWithSameTitleShouldBeEqual() {
         // arrange
@@ -74,6 +79,7 @@ public class FilmTest {
         assertTrue(film1.equals(film2));
     }
 
+    //@Ignore
     @Test
     public void filmShouldWorkWithSet() {
         // arrange
@@ -90,6 +96,7 @@ public class FilmTest {
     /**
      * Override the equals and hashCode methods in the Film class
      */
+//    @Ignore
     @Test
     public void filmsWithSameTitleShouldHaveEqualHashcodes() {
         // arrange

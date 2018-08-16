@@ -10,10 +10,7 @@ import java.time.LocalDate;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
-import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -24,7 +21,7 @@ public class InMemoryFilmDAOTest {
 
     // arrange
     private Map<Long, Film> films = new HashMap<>();
-    private InMemoryFilmDAO sut = new InMemoryFilmDAO(films);
+    private FilmDAO sut = new InMemoryFilmDAO(films);
 
     @Test
     public void insertShouldReturnGeneratedId() {
@@ -133,8 +130,8 @@ public class InMemoryFilmDAOTest {
 //        // assert
 //        verify(doc).serialize(films);	//doc is a spy (verifies indirect outputs)
 //    }
-
-
+//
+//
 //    @Test
 //    public void selectAllShouldCallDeserializeMethodOfSerializer() {
 //        //arrange

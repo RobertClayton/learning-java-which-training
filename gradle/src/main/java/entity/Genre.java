@@ -1,6 +1,6 @@
 package entity;
 
 public enum Genre {
-    COMEDY,
-    CRIME
+    COMEDY, CRIME, SCIENCE_FICTION;
+
 }

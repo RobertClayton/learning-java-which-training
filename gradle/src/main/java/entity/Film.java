@@ -1,34 +1,76 @@
 package entity;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class Film {
-    private Long id;
+    private Long id = null;
     private String title;
-    private Genre genre;
-    private LocalDate date;
     private int stock;
+    private LocalDate released;
+    private Genre genre;
 
-    public Film(String title, int i, LocalDate date, Genre genre) {
-        setTitle(title);
-        setStock(i);
-        setReleased(date);
-        setGenre(genre);
-        setId();
+    public Film(String title, int stock, LocalDate released, Genre genre) {
+        this.title = title;
+        setStock(stock);
+        this.released = released;
+        this.genre = genre;
     }
 
-    public Long getId() { return Long.valueOf(0); }
-    public void setId() { this.id = Long.valueOf(0); }
+    public Film() {
+    }
 
-    public String getTitle() { return "The Pink Panther"; }
-    public void setTitle(String title) {this.title = title;}
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Film film = (Film) o;
+        return stock == film.stock &&
+                Objects.equals(id, film.id) &&
+                Objects.equals(title, film.title) &&
+                Objects.equals(released, film.released) &&
+                genre == film.genre;
+    }
 
-    public int getStock() { return 1; }
-    private void setStock(int i) { this.stock = i; }
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, title, stock, released, genre);
+    }
 
-    public LocalDate getReleased() { return LocalDate.of(1964, 1, 20); }
-    private void setReleased(LocalDate date) { this.date = date; }
+    public void setStock(int stock) {
+        if (stock < 0) {
+            throw new IllegalArgumentException("Stock can be less than 0.");
+        } else {
+            this.stock = stock;
+        }
+    }
 
-    public Genre getGenre() { return Genre.COMEDY; }
-    private void setGenre(Genre genre) { this.genre = genre; }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public LocalDate getReleased() {
+        return released;
+    }
+
+    public Genre getGenre() {
+        return genre;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
 }

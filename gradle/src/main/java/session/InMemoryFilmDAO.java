@@ -4,27 +4,60 @@ import entity.Film;
 
 import java.util.Collection;
 import java.util.Map;
+import java.util.concurrent.atomic.AtomicLong;
+import java.util.stream.Collectors;
 
-public class InMemoryFilmDAO {
-
-    private Film film;
+public class InMemoryFilmDAO implements FilmDAO {
+    private Map<Long, Film> films;
+    private AtomicLong currentId = new AtomicLong();
 
     public InMemoryFilmDAO(Map<Long, Film> films) {
+        this.films = films;
     }
 
-    public void update(Film film) {
-        this.film = film;
+    @Override
+    public Long insert(Film film) {
+        long id = currentId.incrementAndGet();
+        film.setId(id);
+        films.put(id, film);
+        return film.getId();
     }
 
-    public void insert(Long film1) {
+    @Override
+    public boolean update(Film film) {
+        films.get(film.getId()).setTitle(film.getTitle());
+        return true;
     }
 
-//    @Override
-//    public Collection<Film> selectByTitle(String partOfTitle) {
-//        return films
-//                .values()
-//                .stream()
-//                .filter(film -> film.getTitle().contains(partOfTitle))
-//                .collect(Collectors.toList());
-//    }
+    @Override
+    public boolean delete(long l) {
+        return films.remove(l) != null;
+    }
+
+    @Override
+    public Film selectById(long l) {
+//        return films.get(l);
+
+        return films
+                .values()
+                .stream()
+                .filter(s->s.getId()==l)
+                .findFirst()
+                .orElse(null);
+    }
+
+    @Override
+    public Collection<Film> selectAll() {
+        return films.values();
+    }
+
+    @Override
+    public Collection<Film> selectByTitle(String title) {
+        return films
+                .values()
+                .stream()
+                .filter(s -> s.getTitle().contains(title))
+                .collect(Collectors.toList());
+
+    }
 }

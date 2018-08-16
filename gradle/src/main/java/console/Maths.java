@@ -2,6 +2,10 @@ package console;
 
 public class Maths {
     public static int factorial(int i) {
-        return i==1 ? 1 : i * factorial(i-1);
+        if (i == 1) {
+            return 1;
+        }
+        // i-- would pass i into the method and then decrement i, which in this case causes a stackoverflow error! :D
+        return i * factorial(--i);
     }
 }

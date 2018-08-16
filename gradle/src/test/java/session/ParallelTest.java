@@ -9,7 +9,7 @@ import com.google.code.tempusfugit.concurrency.annotations.Concurrent;
 
 import com.google.code.tempusfugit.concurrency.annotations.Repeating;
 import org.junit.AfterClass;
-//import org.junit.Rule;
+import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -27,8 +27,8 @@ import java.util.concurrent.TimeUnit;
 //http://tempusfugitlibrary.org/documentation/junit/load/
 //@Ignore
 public class ParallelTest {
-    //private static Map<Long, Film> films = new HashMap<>();
-//    private static Map<Long, Film> films = new ConcurrentHashMap<>();
+    //    private static Map<Long, Film> films = new HashMap<>();
+    private static Map<Long, Film> films = new ConcurrentHashMap<>();
 
     private static InMemoryFilmDAO sut = new InMemoryFilmDAO(films);
 

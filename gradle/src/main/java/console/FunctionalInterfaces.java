@@ -9,55 +9,47 @@ import java.util.stream.Stream;
 
 public class FunctionalInterfaces {
     public static void main(String[] args) {
-        // build an instance of a named class that implements the Runnable interface
-        RunnableImpl runnableImpl = new RunnableImpl();
-
-        // build an instance of an anonymous class
-        Runnable anonymous = new Runnable() {
+        // anonymous class
+        Runnable an = new Runnable() {
             @Override
             public void run() {
 
             }
         };
 
-        // lambda expression
+        // lambda
         Runnable lambda = () -> {};
 
-        Predicate<String> predicate = (String s) -> { return s.contains("the"); };
-        // different syntax to do the same thing:
-        Predicate<String> predicate2 = s -> s.contains("Europe");
+        Predicate<String> predicate = s -> s.contains("Europe");
 
         Set<String> zoneIds = ZoneId.getAvailableZoneIds();
-
-        Stream<String> stream = zoneIds.stream(); // get abstract sequence
-
-        Stream<String> filteredStream = stream.filter(predicate2);
-
+//        for (String zonedId :zoneIds) {
+//            System.out.println(zonedId);
+//        }
+        Stream<String> stream = zoneIds.stream();
+        Stream<String> filteredStream = stream.filter(predicate);
         Collection<String> collection = filteredStream.collect(Collectors.toList());
+        for (String zonedId :collection) {
+            System.out.println(zonedId);
+        }
 
-        // the above can be condensed into one declaration:
-        Collection<String> collection2 = ZoneId
-                .getAvailableZoneIds()
+        Collection<String> c = ZoneId.getAvailableZoneIds()
                 .stream()
-                .filter(s -> s.contains("Europe"))
+                .filter(s -> s.contains("America"))
                 .collect(Collectors.toList());
+        for (String zonedId :c) {
+            System.out.println(zonedId);
+        }
 
-        long numberOfEuropeanCities = ZoneId
-                .getAvailableZoneIds()
+        String city = ZoneId.getAvailableZoneIds()
                 .stream()
-                .filter(s -> s.contains("Europe"))
-                .count();
-
-        String city = ZoneId
-                .getAvailableZoneIds()
-                .stream()
-                .filter(s -> s.contains("Sofia"))
+                .filter(s->s.contains("Sofia"))
                 .findFirst()
                 .orElse(null);
+
         System.out.println(city);
 
-        for (String zoneId: collection) {
-            System.out.println(zoneId);
-        }
+//        functional interfaces wtf?
+//        implemented methods?
     }
 }
