@@ -1,14 +1,23 @@
 package entity;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public class Film {
-    private Long id = null;
+@Entity
+public class Film{
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    @Enumerated(EnumType.STRING) private Genre genre;
+    @Version private int version;
+
+//    private Long id = null;
     private String title;
     private int stock;
     private LocalDate released;
-    private Genre genre;
+//    private Genre genre;
+//    private int version;
 
     public Film(String title, int stock, LocalDate released, Genre genre) {
         this.title = title;
@@ -37,25 +46,32 @@ public class Film {
         return Objects.hash(id, title, stock, released, genre);
     }
 
-    public void setStock(int stock) {
-        if (stock < 0) {
-            throw new IllegalArgumentException("Stock can be less than 0.");
-        } else {
-            this.stock = stock;
-        }
-    }
-
-
     public Long getId() {
         return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getTitle() {
         return title;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public int getStock() {
         return stock;
+    }
+
+    public void setStock(int stock) {
+        if (stock < 0) {
+            throw new IllegalArgumentException("Stock can be less than 0.");
+        } else {
+            this.stock = stock;
+        }
     }
 
     public LocalDate getReleased() {
@@ -66,11 +82,11 @@ public class Film {
         return genre;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public int getVersion() {
+        return version;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setVersion(int version) {
+        this.version = version;
     }
 }

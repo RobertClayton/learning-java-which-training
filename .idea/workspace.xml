@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="233f395a-ed8b-4d55-b6a9-6a173f0a019d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/src/main/java/console/DatesAndTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/main/java/console/DatesAndTimes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/src/main/java/console/FunctionalInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/main/java/console/FunctionalInterfaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/src/main/java/console/Maths.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/main/java/console/Maths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/src/main/java/entity/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/main/java/entity/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/src/main/java/entity/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/main/java/entity/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/src/main/java/session/InMemoryFilmDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/main/java/session/InMemoryFilmDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/src/test/java/console/MathsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/test/java/console/MathsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/src/test/java/entity/FilmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/src/test/java/entity/FilmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testtt/mike.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../testtt/test.rb" beforeDir="false" />
     </list>
@@ -28,7 +16,7 @@
     <session id="1601965668">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
@@ -288,7 +276,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.21459228" />
       <window_info id="Structure" order="1" sideWeight="0.50206614" side_tool="true" weight="0.17596567" />
