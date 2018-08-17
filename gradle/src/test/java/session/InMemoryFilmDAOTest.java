@@ -2,6 +2,9 @@ package session;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 //import static org.mockito.Mockito.mock;
 //import static org.mockito.Mockito.verify;
 //import static org.mockito.Mockito.when;
@@ -120,23 +123,23 @@ public class InMemoryFilmDAOTest {
 
     //Interction tests with Mockito
 
-//    @Test
-//    public void insertShouldCallSerializeMethodOfSerializer() {
-//        //arrange
-//        Serializer doc = mock(Serializer.class);//test double
-//        FilmDAO sut = new InMemoryFilmDAO(films, doc);
-//        // act
-//        sut.insert(new Film());
-//        // assert
-//        verify(doc).serialize(films);	//doc is a spy (verifies indirect outputs)
-//    }
-//
-//
+    @Test
+    public void insertShouldCallSerializeMethodOfSerializer() {
+        //arrange
+        Serializer doc = mock(Serializer.class);//test double
+        FilmDAO sut = new InMemoryFilmDAO(films);
+        // act
+        sut.insert(new Film());
+        // assert
+        verify(doc).serialize(films);	//doc is a spy (verifies indirect outputs)
+    }
+
+
 //    @Test
 //    public void selectAllShouldCallDeserializeMethodOfSerializer() {
 //        //arrange
 //        Serializer doc = mock(Serializer.class);//test double
-//        FilmDAO sut = new InMemoryFilmDAO(films, doc);
+//        FilmDAO sut = new InMemoryFilmDAO(films);
 //        Film film1 = new Film("The Pink Panther", 5, LocalDate.of(1964, 1, 20), Genre.COMEDY);
 //        films.put(1L,film1);
 //        when(doc.deserialize()).thenReturn(films);

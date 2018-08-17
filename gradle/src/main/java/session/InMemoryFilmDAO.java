@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 public class InMemoryFilmDAO implements FilmDAO {
     private Map<Long, Film> films;
     private AtomicLong currentId = new AtomicLong();
-
+    private Serializer serializer;
     public InMemoryFilmDAO(Map<Long, Film> films) {
         this.films = films;
     }
@@ -48,6 +48,8 @@ public class InMemoryFilmDAO implements FilmDAO {
 
     @Override
     public Collection<Film> selectAll() {
+        if (serializer != null)
+            films = serializer.deserialize();
         return films.values();
     }
 
